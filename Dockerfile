@@ -9,6 +9,8 @@ RUN git clone https://github.com/agustim/fiberfy-server.git /usr/src/app
 # Workspace
 WORKDIR /usr/src/app
 
+RUN npm upgrade
+
 RUN npm update npm
 
 # Install dependencies
